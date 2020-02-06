@@ -9,13 +9,15 @@ import { RelatividadComponent } from './components/relatividad/relatividad.compo
 import { CuanticaComponent } from './components/cuantica/cuantica.component';
 
 import { FormsModule } from '@angular/forms';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavComponent,
     RelatividadComponent,
-    CuanticaComponent
+    CuanticaComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
